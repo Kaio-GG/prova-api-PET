@@ -13,7 +13,7 @@ return  respota[0]
 
 export async function consultarpet(){
 const comando =
-`select * from tb_pet`
+`select * from tb_pet `
 const [respota] = await con.query(comando)
 return respota
 }
